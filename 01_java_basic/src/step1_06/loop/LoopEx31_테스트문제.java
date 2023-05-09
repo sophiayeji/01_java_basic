@@ -24,7 +24,20 @@ package step1_06.loop;
 public class LoopEx31_테스트문제 {
 
 	public static void main(String[] args) {
-
+		//# 문제1) 9의 배수중 십의 자리가 6인 첫번째 배수 출력 답 : 63
+		int a =0;
+		while (a / 9 == 0 && a<100) {
+			 if (a >60 && a <70);{
+			 	System.out.println(a);
+			 }
 	}
-
+		//문제2) 8로 나누면 5가 남는수 중 150보다 적은수중에 가장 가까운수를 구하시요 ( 절대값 사용 x ) 답 149
+		int b =0;
+		int max = 0;
+		while(b % 8 == 5) {
+			if(a < 150) {
+				max = a; System.out.println(a);
+			}
+		}
+	}
 }

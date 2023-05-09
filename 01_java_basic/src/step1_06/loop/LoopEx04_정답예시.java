@@ -25,7 +25,7 @@ public class LoopEx04_정답예시 {
 		
 		while (i <= 5) {
 			
-			int x = ran.nextInt(8) + 2;
+			int x = ran.nextInt(8) + 2; // [0~7] + 2 > 2단시작 , [0~8] + 1 > 1단시작
 			int y = ran.nextInt(9) + 1;
 			int answer = x * y;
 			
